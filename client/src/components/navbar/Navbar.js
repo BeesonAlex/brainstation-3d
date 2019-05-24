@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
+import "./Navbar.scss"
 
 export class Navbar extends Component {
     render() {
         return (
-            <div>
+            <header>
+            <div className="navbar__container">
+            hello hello hello
                 
             </div>
+            </header>
         )
     }
 }
 
-export default N
+export default Navbar;
