@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import './Datamodule.scss';
+import BarGraph from '../bargraph/BarGraph';
+import datamoduleData from '../../data/datamoduleData';
 
 export class Datamodule extends Component {
     render() {
         return (
             <div className="datamodule-wrapper">
                 <div className="datamodule-graph">
-                <div className="graph"></div>
+                <div className="graph"><BarGraph data={datamoduleData} height={100} width={50} /></div>
                 </div>
                 <div className="datamodule-explanation">
                 <div className="datamodule-explanation__text">
