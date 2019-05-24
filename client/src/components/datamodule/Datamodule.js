@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Datamodule.scss';
 import BarGraph from '../bargraph/BarGraph';
 import datamoduleData from '../../data/datamoduleData';
+import { Link } from "react-router-dom"
 
 export class Datamodule extends Component {
     render() {
@@ -12,8 +13,8 @@ export class Datamodule extends Component {
                 </div>
                 <div className="datamodule-explanation">
                 <div className="datamodule-explanation__text">
-                    <h3 className="datamodule-explanation__text--heading">Graph 1</h3>
-                    <p className="datamodule-explanation__text--paragraph">lorem ipsum jdfbvfdbgafjkgbaf;gjkbajsb</p>
+                    <h3 className="datamodule-explanation__text--heading">Mashable</h3>
+                    <p className="datamodule-explanation__text--paragraph">A global, multi-platform media and entertainment company</p>
                 </div>
                 <div className="datamodule-explanation__buttons">
                 <button className="popularity-button">Popularity</button>
