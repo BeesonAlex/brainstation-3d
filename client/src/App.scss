@@ -1,0 +1,109 @@
+/* This file determines initial browser reset and layout mixins for responsive design */
+// @import './colors.scss';
+
+
+/* Variables */
+
+$black: #323232;
+$silver: #AFAFAF;
+$mercury: #E1E1E1;
+$alabaster: #FAFAFA;
+$white: #FFFFFF;
+$brainflix-blue: #0065AD;
+$brainflix-blue-light: #0095FF;
+
+$paragraph-text: $black;
+$text-label-style: $silver;
+$text-field-border: $mercury;
+$text-field-background-fill: $alabaster;
+
+$nav-back-fill: $black; 
+$primary-cta: $black;
+$primary-cta-hover: $brainflix-blue;
+
+
+
+/* Layout Variables */
+
+$desktop: 1440px;
+$tablet: 768px;
+$mobile: 320px;
+
+/* Layout Mixins */
+
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    } 
+}
+
+@mixin tablet {
+    @media (min-width: $tablet){
+        @content;
+    } 
+}
+
+
+
+
+
+/* Font Imports */
+
+@font-face {
+    font-family: 'Avenir Next Regular';
+    src: './assets/GlobalFont/AvenirNextProLT/LinotypeAvenirNextLTProRegular.otf';
+}
+@font-face {
+    font-family: 'Avenir Next Demi-Bold';
+    src: './assets/GlobalFont/AvenirNextProLT/LinotypeAvenirNextLTProDemi.otf';
+}
+@font-face {
+    font-family: 'Avenir Next Bold';
+    src: './assets/GlobalFont/AvenirNextProLT/LinotypeAvenirNextLTProBold.otf';
+}
+
+/* Mixins */
+
+@mixin hero-header () {
+    font-family:'Avenir Next Bold', sans-serif;
+    font-size: 3.75rem;
+    line-height: 4.25rem;
+    color: $black;
+}
+
+@mixin h1-header () {
+    font-family:'Avenir Next Bold', sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: $black;
+}
+
+
+
+
+
+
+/* Browser & Link Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }  
+
+}

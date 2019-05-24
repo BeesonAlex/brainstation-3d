@@ -1,0 +1,49 @@
+@import '../../App.scss';
+
+.datamodule-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: $mercury;
+
+    .datamodule-graph {
+        width: 48%;
+
+        .graph {
+            width: 622px;
+            height: 427px;
+            background-color: grey;
+        }
+
+
+    }
+
+    .datamodule-explanation {
+        width: 48%;
+
+        &__text {
+            width: 388px;
+            &--heading {
+
+            }
+
+            &--paragraph {
+
+            }
+
+        }
+
+        &__buttons {
+            width: 388px;
+            .popularity-button {
+                
+            }
+            .sentiment-button {
+
+            }
+            .datamodule-button {
+
+            }
+        }
+    }
+}

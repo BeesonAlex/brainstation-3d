@@ -1,8 +1,11 @@
 
-.navbar {
+@import '../../App.scss';
 
-    &__container {
-        background-color: black;
-        color: green;
+.navbar-wrapper{
+    height: 5rem;
+    background-color:$mercury;
+
+    .logo {
+        @include h1-header;
     }
 }

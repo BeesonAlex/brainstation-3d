@@ -4,11 +4,8 @@ import "./Navbar.scss"
 export class Navbar extends Component {
     render() {
         return (
-            <header>
-            <div className="navbar__container">
-            hello hello hello
-                
-            </div>
+            <header className="navbar-wrapper">
+            <h1 className="logo">Pathfinder</h1>
             </header>
         )
     }

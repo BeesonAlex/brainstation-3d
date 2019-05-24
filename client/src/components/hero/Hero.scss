@@ -1,0 +1,10 @@
+@import '../../App.scss';
+
+.hero-wrapper {
+    height: 5rem;
+    background-color:$mercury;
+
+    .hero-statement {
+        @include h1-header;
+    }
+}
