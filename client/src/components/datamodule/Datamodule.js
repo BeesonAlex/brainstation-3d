@@ -11,7 +11,7 @@ export class Datamodule extends Component {
                 <div className="datamodule-explanation">
                 <div className="datamodule-explanation__text">
                     <h3 className="datamodule-explanation__text--heading">Graph 1</h3>
-                    <p className="datamodule-explanation__text--paragraph">loremloremlorem</p>
+                    <p className="datamodule-explanation__text--paragraph">lorem ipsum jdfbvfdbgafjkgbaf;gjkbajsb</p>
                 </div>
                 <div className="datamodule-explanation__buttons">
                 <button className="popularity-button">Popularity</button>
