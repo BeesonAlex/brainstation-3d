@@ -8,8 +8,12 @@ export class Hero extends Component {
             <h2 className="hero-statement"></h2>
             <select className="dropdown">
                 <option className="dropdown__whats" value="hello">What's Trending?</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
+                <option value="yes">Mashable</option>
+                <option value="no">Inc</option>
+                <option value="no">Fast Company</option>
+                <option value="no">TechCrunch</option>
+                <option value="no">The Verge</option>
+                <option value="no">Wired</option>
             </select>
             
             </div>

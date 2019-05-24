@@ -18,9 +18,9 @@ export class App extends Component {
       <Navbar />
       <Hero />
       <Switch>
-      <Route path="/" component={Datamodule} />
-      <Route path="/popularity" exact component={Popularity} />
-      <Route path="/sentiment" exact component={Sentiment} />
+        <Route exact path="/" component={Datamodule} />
+        <Route path="/popularity" component={Popularity} />
+        <Route path="/sentiment" component={Sentiment} />
       </Switch>
       </BrowserRouter>
     </div>
