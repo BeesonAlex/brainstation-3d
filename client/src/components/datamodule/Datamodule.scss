@@ -1,10 +1,12 @@
 @import '../../App.scss';
 
+
+
 .datamodule-wrapper {
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color: $mercury;
+    background-color: #424b5a;
 
     .datamodule-graph {
         width: 48%;
@@ -13,6 +15,7 @@
             border: 1px solid red;
             height: 400px;
             width: 400px;
+            margin-left: 50px;
             
             background-color: grey;
         }
@@ -26,6 +29,8 @@
         border: 1px solid green;
         display: flex;
         flex-direction: column;
+        color: white;
+        justify-content: space-around;
 
         &__text {
             width: 388px;
@@ -45,15 +50,36 @@
             flex-direction: column;
             
             .popularity-button {
-                background-color: green;
+                
+                background-color: #2ed573;
+                width: 250px;
+                height: 48px;
+                font-weight: bold;
+                border-radius: 1px;
+                margin-left: 50px;
+                color: white;
+                margin-bottom: 7px;
                 
             }
             .sentiment-button {
-                background-color: red;
+                background-color: #2ed573;
+                width: 250px;
+                height: 48px;
+                font-weight: bold;
+                border-radius: 1px;
+                margin-left: 50px;
+                color: white;;
+                margin-bottom: 7px;
 
             }
             .datamodule-button {
-                background-color: blue;
+                background-color: #2ed573;
+                width: 250px;
+                height: 48px;
+                font-weight: bold;
+                border-radius: 1px;
+                margin-left: 50px;
+                color: white;
 
             }
         }
